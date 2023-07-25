@@ -1,57 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetically Pleasing GitHub Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Aesthetically Pleasing GitHub Website</h1>
+    </header>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+    <main>
+        <p>This is a beautiful website hosted on GitHub Pages.</p>
+        <p>Feel free to explore and customize!</p>
+    </main>
 
-header h1 {
-    font-size: 36px;
-}
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-main p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-footer p {
-    font-size: 14px;
-}
-
-@media screen and (max-width: 600px) {
-    header h1 {
-        font-size: 24px;
-    }
-
-    main {
-        margin: 20px;
-    }
-
-    main p {
-        font-size: 16px;
-    }
-}
